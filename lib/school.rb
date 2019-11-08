@@ -31,4 +31,3 @@ class School
               sorted_rost
               end
 end
-
