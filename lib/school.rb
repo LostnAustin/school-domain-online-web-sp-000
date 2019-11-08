@@ -22,5 +22,8 @@ class School
             def grade(grade)
             roster[grade]
             end
+
+            def sort(name)
+              roster.sort[name]
 end
 #school = School.new(ROSTER)
