@@ -16,9 +16,9 @@ class School
 
           def add_student(name, grade)
               ROSTER[:name] = []
-              ROSTER.flatten[:name] = ["#{name}"]
+              ROSTER[:name] = ["#{name}"]
               ROSTER[:grade] = []
-                ROSTER.flatten[:grade] = "#{grade}"
+                ROSTER[:grade] = "#{grade}"
 
           end
 
