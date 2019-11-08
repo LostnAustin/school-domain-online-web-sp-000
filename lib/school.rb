@@ -7,19 +7,17 @@ class School
     @grade = grade
   @roster = ROSTER
   end
+
     
+      def add_student(name, grade)
 
-          def add_student(name, grade)
-
-#ROSTER[grade] = []
-          #   ROSTER[grade] = ["#{name}"]
-
-             if ROSTER[grade]
+             if ROSTER[grade] == true
                ROSTER[grade] << name
              else
                ROSTER[grade] = [name]
              end
            end
+
 
 
 
