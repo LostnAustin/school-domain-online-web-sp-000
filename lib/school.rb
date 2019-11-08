@@ -18,7 +18,7 @@ class School
             #  ROSTER[:name] = []
             #  ROSTER[:name] << ["#{name}"]
               ROSTER[:grade] = []
-                ROSTER[:grade] << "#{name}"
+                ROSTER["#{grade}"] << "#{name}"
 
           end
 
