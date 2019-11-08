@@ -1,17 +1,17 @@
 
 class School
-  ROSTER = Hash.new
+#ROSTER = Hash.new
   attr_accessor :name, :roster
   def initialize(name)
     @name = name
     @grade = grade
-  @roster = ROSTER
+  @roster = {}
   end
 
 
       def add_student(name, grade)
-        ROSTER[grade] ||= []
-        ROSTER[grade] << name
+      roster[grade] ||= []
+        roster[grade] << name
       end
         #if roster has a "grade" key push name to roster-grade, else "||=" - or equal to new array
           #   if ROSTER.has_key?[grade]
