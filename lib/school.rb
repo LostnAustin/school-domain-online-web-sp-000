@@ -31,4 +31,4 @@ class School
               sorted_rost
               end
 end
-#school = School.new(ROSTER)
+
