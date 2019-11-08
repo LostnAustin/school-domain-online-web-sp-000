@@ -1,3 +1,4 @@
+
 class School
   ROSTER = Hash.new
   attr_accessor :name, :roster
@@ -22,7 +23,7 @@ class School
              if ROSTER.has_key?(grade)
                ROSTER[grade] << name
              else
-               ROSTER[grade] = ["#{name}"]
+               ROSTER[grade] = name
              end
            end
 
