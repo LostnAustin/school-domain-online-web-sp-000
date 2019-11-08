@@ -24,7 +24,7 @@ class School
 
 
             def grade
-              @grade[grade]
+              @roster[grade]
             end
 end
 #school = School.new(ROSTER)
