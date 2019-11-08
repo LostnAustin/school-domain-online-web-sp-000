@@ -1,6 +1,6 @@
 class School
   ROSTER = Hash.new
-
+  attr_accessor :name, :roster
   def initialize(name)
     @name = name
     @grade = grade
