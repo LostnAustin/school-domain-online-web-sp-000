@@ -18,10 +18,6 @@ class School
           #   else
           #     ROSTER[grade] = [name]
 
-
-
-
-
             def grade
               @roster[grade]
             end
