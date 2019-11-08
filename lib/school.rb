@@ -23,8 +23,12 @@ class School
             roster[grade]
             end
 
-            def sort(name)
-          name.sort
+            def sort
+              sorted_rost = {}
+              roster.each do |name, grade|
+                name.sorted = sorted_rost[grade]
+              end
+          
               end
 end
 #school = School.new(ROSTER)
