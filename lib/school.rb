@@ -11,7 +11,8 @@ class School
 
       def add_student(name, grade)
         ROSTER[grade] || = []
-        ROSTER[grade] = [name]
+        ROSTER[grade] << [name]
+
 
           #   if ROSTER.has_key?[grade]
           #     ROSTER[grade] << name
