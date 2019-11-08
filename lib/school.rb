@@ -18,7 +18,7 @@ class School
           #     ROSTER[grade] << name
           #   else
           #     ROSTER[grade] = [name]
-    
+
            end
 
 
