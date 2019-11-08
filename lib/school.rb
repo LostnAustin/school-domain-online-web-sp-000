@@ -10,7 +10,7 @@ class School
 
 
       def add_student(name, grade)
-        ROSTER[grade == 10] ||= []
+        ROSTER[grade] == 10 ||= []
         ROSTER[grade] << name
 
 
