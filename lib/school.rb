@@ -19,7 +19,7 @@ class School
               ROSTER["name"] = ["#{name}"]
               ROSTER["grade"] = []
                 ROSTER["grade"] = "#{grade}"
-              ROSTER.flatten
+            
           end
 
             def grade
