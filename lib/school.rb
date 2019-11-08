@@ -16,9 +16,9 @@ class School
 
           def add_student(name, grade)
 
-
+               ROSTER[grade] = []
              ROSTER[grade] = ["#{name}"]
-             ROSTER[:grade] = [name]
+             ROSTER
 
             #  ROSTER[:grade] << "#{name}"
 
