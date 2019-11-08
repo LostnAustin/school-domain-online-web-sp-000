@@ -8,7 +8,7 @@ class School
   @roster = ROSTER
   end
 
-    
+
       def add_student(name, grade)
 
              if ROSTER[grade]
