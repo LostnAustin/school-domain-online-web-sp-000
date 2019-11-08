@@ -24,7 +24,7 @@ class School
             end
 
             def sort(name)
-              roster.sort[name]
+          name.sort
               end
 end
 #school = School.new(ROSTER)
